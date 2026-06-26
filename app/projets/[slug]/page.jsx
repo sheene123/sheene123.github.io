@@ -68,6 +68,31 @@ export default function ProjetDetail({ params }) {
         </div>
       </div>
 
+      {(p.github || p.demo) && (
+        <div className="mt-6 flex flex-wrap gap-3">
+          {p.github && (
+            <a
+              href={p.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-xs border border-line rounded-lg px-4 py-2.5 text-soft hover:text-accent hover:border-accent transition-colors"
+            >
+              ↗ GitHub
+            </a>
+          )}
+          {p.demo && (
+            <a
+              href={p.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-xs border border-accent rounded-lg px-4 py-2.5 text-accent hover:bg-accent hover:text-bg transition-colors"
+            >
+              ↗ App en ligne
+            </a>
+          )}
+        </div>
+      )}
+
       <Link
         href={`/projets/${next.slug}`}
         className="group block mt-12 border border-line rounded-xl p-6 bg-panel/60 hover:border-accent transition-colors"
