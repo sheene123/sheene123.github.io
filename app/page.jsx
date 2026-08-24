@@ -11,7 +11,7 @@ export default function Home() {
       <div className="grid-bg absolute inset-x-0 top-0 h-[480px] -z-10" />
 
       <div className="max-w-5xl mx-auto px-5">
-        {/* ── Hero ── */}
+        {/* Hero */}
         <header className="py-20 sm:py-28 grid sm:grid-cols-[1fr_auto] gap-10 items-center">
           <div>
             <p className="font-mono text-xs text-accent mb-5">
@@ -26,10 +26,10 @@ export default function Home() {
               {profile.tagline}
             </p>
             <p className="text-soft mt-6 max-w-xl leading-relaxed">
-              Je transforme des processus manuels en pipelines automatisés — de
+              Je transforme des processus manuels en pipelines automatisés, de
               l'extraction de données jusqu'au dashboard. Actuellement chez{' '}
-              <strong className="text-ink font-medium">Framatome</strong>, demain en{' '}
-              <strong className="text-ink font-medium">Master Data Science à Paris-Saclay</strong>.
+              <strong className="text-ink font-medium">Framatome</strong>, à la rentrée en{' '}
+              <strong className="text-ink font-medium">cycle ingénieur Cloud Computing &amp; Cybersécurité à l'ESILV</strong>.
             </p>
             <div className="flex flex-wrap gap-3 mt-9">
               <Link
@@ -65,13 +65,13 @@ export default function Home() {
           </div>
         </header>
 
-        {/* ── Stats ── */}
+        {/* Stats */}
         <Reveal>
           <div className="grid grid-cols-2 sm:grid-cols-4 border border-line rounded-xl overflow-hidden font-mono">
             {[
               ['2', 'expériences industrielles'],
               [`${projects.length}`, 'projets'],
-              ['8+', 'technologies maîtrisées'],
+              ['8+', 'technologies utilisées'],
               ['B2', 'anglais'],
             ].map(([num, label]) => (
               <div key={label} className="p-5 border border-line -m-px bg-panel/60">
@@ -82,21 +82,21 @@ export default function Home() {
           </div>
         </Reveal>
 
-        {/* ── À propos ── */}
+        {/* A propos */}
         <section className="py-20">
           <Reveal>
             <h2 className="font-mono text-sm text-accent mb-6">
-              <span className="text-soft">##</span> à-propos
+              <span className="text-soft">##</span> a-propos
             </h2>
             <p className="text-lg leading-relaxed max-w-3xl">{profile.about}</p>
           </Reveal>
         </section>
 
-        {/* ── Compétences ── */}
+        {/* Competences */}
         <section className="pb-20">
           <Reveal>
             <h2 className="font-mono text-sm text-accent mb-8">
-              <span className="text-soft">##</span> compétences
+              <span className="text-soft">##</span> competences
             </h2>
           </Reveal>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -114,12 +114,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── Projets en avant ── */}
+        {/* Projets en avant */}
         <section className="pb-24">
           <Reveal>
             <div className="flex items-baseline justify-between mb-8">
               <h2 className="font-mono text-sm text-accent">
-                <span className="text-soft">##</span> projets-récents
+                <span className="text-soft">##</span> projets-recents
               </h2>
               <Link href="/projets" className="font-mono text-xs text-accent2 hover:underline">
                 ls --all →
