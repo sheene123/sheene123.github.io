@@ -3,13 +3,13 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Carld Similien — Développeur · Cloud & DevOps',
+  title: 'Carld Similien · Développeur Cloud & DevOps',
   description:
-    "Portfolio de Carld Similien : développeur & automation en alternance chez Framatome, futur ingénieur Cloud & cybersécurité (ESILV). Python, JavaScript, Next.js, Power BI, Azure, Docker, Kubernetes.",
-  keywords: ['développeur', 'DevOps', 'cloud', 'automatisation', 'Next.js', 'Python', 'Azure', 'portfolio', 'Carld Similien'],
+    "Portfolio de Carld Similien : alternant développeur & automatisation chez Framatome, futur ingénieur Cloud Computing & Cybersécurité (ESILV). Kubernetes, Azure AKS, Terraform, Prometheus, Python, Next.js, FastAPI.",
+  keywords: ['développeur', 'DevOps', 'cloud', 'Kubernetes', 'Terraform', 'Azure', 'automatisation', 'Next.js', 'Python', 'portfolio', 'Carld Similien'],
   openGraph: {
-    title: 'Carld Similien — Développeur · Cloud & DevOps',
-    description: 'Développement, automatisation, cloud & DevOps — portfolio de Carld Similien.',
+    title: 'Carld Similien · Développeur Cloud & DevOps',
+    description: 'Développement, automatisation, cloud et DevOps. Portfolio de Carld Similien.',
     type: 'website',
     locale: 'fr_FR',
   },

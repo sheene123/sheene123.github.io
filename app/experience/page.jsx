@@ -32,7 +32,7 @@ export default function Experience() {
                     </span>
                     <h2 className="font-mono font-bold text-lg mt-1">{xp.role}</h2>
                     <p className="text-soft text-sm mt-0.5">
-                      {xp.org} — {xp.place}
+                      {xp.org} · {xp.place}
                     </p>
                   </div>
                   <motion.span

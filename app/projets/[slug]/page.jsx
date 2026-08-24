@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const p = projects.find((x) => x.slug === params.slug);
-  return { title: p ? `${p.title} — Carld Similien` : 'Projet' };
+  return { title: p ? `${p.title} · Carld Similien` : 'Projet' };
 }
 
 export default function ProjetDetail({ params }) {

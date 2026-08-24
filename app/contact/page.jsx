@@ -30,8 +30,9 @@ export default function Contact() {
         Un projet, une alternance, une question&nbsp;?
       </p>
       <p className="text-soft mt-6 max-w-md">
-        Basé à {profile.location}. Je recherche une alternance en data science /
-        ingénierie de la donnée. Réponse rapide garantie.
+        Basé à {profile.location}. Je recherche une alternance de 36 mois en
+        cloud et DevOps, pour accompagner mon cycle ingénieur à l'ESILV
+        (septembre 2026 à septembre 2029).
       </p>
 
       {/* Fenêtre terminal */}

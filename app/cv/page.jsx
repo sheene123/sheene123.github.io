@@ -1,8 +1,8 @@
-export const metadata = { title: 'CV — Carld Similien' };
+export const metadata = { title: 'CV · Carld Similien' };
 
 // version du PDF : à bumper à chaque mise à jour du CV pour forcer le
 // rechargement (contourne le cache navigateur/CDN sur l'URL /cv.pdf)
-const CV_URL = '/cv.pdf?v=2026-07-01';
+const CV_URL = '/cv.pdf?v=2026-08-24';
 
 export default function CV() {
   return (
@@ -33,9 +33,9 @@ export default function CV() {
       <div className="border border-line rounded-xl overflow-hidden bg-panel/60">
         <object data={CV_URL} type="application/pdf" className="w-full h-[80vh]">
           <p className="p-8 text-soft text-sm">
-            Impossible d'afficher le PDF dans le navigateur —{' '}
+            Impossible d'afficher le PDF dans le navigateur.{' '}
             <a href={CV_URL} className="text-accent underline">
-              télécharge-le ici
+              Télécharge-le ici
             </a>
             .
           </p>

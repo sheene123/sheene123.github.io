@@ -1,6 +1,9 @@
-# Portfolio — Carld Similien
+# Portfolio de Carld Similien
 
 Portfolio professionnel multi-pages, design **Data Terminal** (dark/light mode).
+
+Le CV téléchargeable est dans `public/cv.pdf`. Après remplacement, pense à bumper la version
+dans `CV_URL` (`app/cv/page.jsx`) pour contourner le cache navigateur.
 
 **Stack** : Next.js 14 (App Router) · Tailwind CSS · Framer Motion · export statique.
 
@@ -13,7 +16,7 @@ carld-portfolio/
 │   ├── globals.css             # Thèmes dark/light (variables CSS)
 │   ├── page.jsx                # Accueil : hero + photo, à propos, compétences, projets
 │   ├── experience/page.jsx     # Timeline interactive (accordéons) + formation
-│   ├── projets/page.jsx        # Projets filtrables par catégorie (IA/Web/Cloud)
+│   ├── projets/page.jsx        # Projets filtrables par catégorie (DevOps/Cloud/Cyber/IA/Web)
 │   ├── projets/[slug]/page.jsx # Étude de cas par projet
 │   ├── cv/page.jsx             # CV intégré + téléchargement PDF
 │   └── contact/page.jsx        # Contact façon terminal + copie email
@@ -53,12 +56,12 @@ npm run dev
 4. Le workflow `deploy.yml` build et déploie automatiquement à chaque push.
    Le site sera sur `https://TON_PSEUDO.github.io/portfolio/`
 
-> Le workflow utilise `actions/configure-pages` qui injecte automatiquement le `basePath` — rien à configurer.
+> Le workflow utilise `actions/configure-pages` qui injecte automatiquement le `basePath`, rien à configurer.
 
 ## Personnaliser
 
 - **Contenu** (projets, expériences, compétences, à-propos) : tout est dans `lib/data.js`
-- **Liens GitHub / LinkedIn** : champs `github` et `linkedin` dans `lib/data.js` (actuellement génériques — aucun lien trouvé lors du scan)
+- **Liens GitHub / LinkedIn** : champs `github` et `linkedin` dans `lib/data.js`
 - **CV** : remplace `public/cv.pdf`
 - **Photo** : remplace `public/profile.jpg`
 - **Couleurs / thèmes** : variables CSS dans `app/globals.css`

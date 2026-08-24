@@ -17,7 +17,7 @@ export default function Home() {
             <p className="font-mono text-xs text-accent mb-5">
               <span className="text-soft">$</span> whoami{' '}
               <span className="inline-block w-2 h-2 rounded-full bg-accent animate-pulse ml-2" />{' '}
-              <span className="text-soft">disponible — alternance</span>
+              <span className="text-soft">disponible · alternance</span>
             </p>
             <h1 className="font-mono font-bold text-4xl sm:text-6xl tracking-tight leading-tight">
               {profile.name}
@@ -26,8 +26,9 @@ export default function Home() {
               {profile.tagline}
             </p>
             <p className="text-soft mt-6 max-w-xl leading-relaxed">
-              Je transforme des processus manuels en pipelines automatisés, de
-              l'extraction de données jusqu'au dashboard. Actuellement chez{' '}
+              Je déploie et supervise des applications sur Kubernetes, et
+              j'automatise les traitements de données autour. Actuellement en
+              alternance chez{' '}
               <strong className="text-ink font-medium">Framatome</strong>, à la rentrée en{' '}
               <strong className="text-ink font-medium">cycle ingénieur Cloud Computing &amp; Cybersécurité à l'ESILV</strong>.
             </p>
@@ -71,7 +72,7 @@ export default function Home() {
             {[
               ['2', 'expériences industrielles'],
               [`${projects.length}`, 'projets'],
-              ['8+', 'technologies utilisées'],
+              ['45%', 'de traitement manuel en moins'],
               ['B2', 'anglais'],
             ].map(([num, label]) => (
               <div key={label} className="p-5 border border-line -m-px bg-panel/60">
