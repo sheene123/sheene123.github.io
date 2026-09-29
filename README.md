@@ -16,7 +16,7 @@ carld-portfolio/
 │   ├── globals.css             # Thèmes dark/light (variables CSS)
 │   ├── page.jsx                # Accueil : hero + photo, à propos, compétences, projets
 │   ├── experience/page.jsx     # Timeline interactive (accordéons) + formation
-│   ├── projets/page.jsx        # Projets filtrables par catégorie (DevOps/Cloud/Cyber/IA/Web)
+│   ├── projets/page.jsx        # Projets filtrables par catégorie (Imagerie/IA/DevOps/Cloud/Cyber/Web)
 │   ├── projets/[slug]/page.jsx # Étude de cas par projet
 │   ├── cv/page.jsx             # CV intégré + téléchargement PDF
 │   └── contact/page.jsx        # Contact façon terminal + copie email

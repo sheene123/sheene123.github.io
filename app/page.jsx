@@ -26,11 +26,12 @@ export default function Home() {
               {profile.tagline}
             </p>
             <p className="text-soft mt-6 max-w-xl leading-relaxed">
-              Je déploie et supervise des applications sur Kubernetes, et
-              j'automatise les traitements de données autour. Actuellement en
-              alternance chez{' '}
-              <strong className="text-ink font-medium">Framatome</strong>, à la rentrée en{' '}
-              <strong className="text-ink font-medium">cycle ingénieur Cloud Computing &amp; Cybersécurité à l'ESILV</strong>.
+              Je construis des modèles d'IA pour l'imagerie médicale et la chaîne
+              qui les met en production : évaluation face aux experts, registre de
+              modèles, déploiement continu. Étudiant en{' '}
+              <strong className="text-ink font-medium">Master 1 OIVM, parcours Signaux et Images en Médecine, à l'UPEC</strong>,
+              après une année d'alternance chez{' '}
+              <strong className="text-ink font-medium">Framatome</strong>.
             </p>
             <div className="flex flex-wrap gap-3 mt-9">
               <Link

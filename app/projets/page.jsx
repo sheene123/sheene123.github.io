@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { projects } from '@/lib/data';
 
-const categories = ['Tous', 'DevOps', 'Cloud', 'Cyber', 'IA', 'Web'];
+const categories = ['Tous', 'Imagerie', 'IA', 'DevOps', 'Cloud', 'Cyber', 'Web'];
 
 export default function Projets() {
   const [filter, setFilter] = useState('Tous');
