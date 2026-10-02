@@ -27,7 +27,7 @@ export default function Home() {
             </p>
             <p className="text-soft mt-6 max-w-xl leading-relaxed">
               Je construis des modèles d'IA pour l'imagerie médicale et la chaîne
-              qui les met en production : évaluation face aux experts, registre de
+              qui les met en production : évaluation sur des données jamais vues, registre de
               modèles, déploiement continu. Étudiant en{' '}
               <strong className="text-ink font-medium">Master 1 OIVM, parcours Signaux et Images en Médecine, à l'UPEC</strong>,
               après une année d'alternance chez{' '}
