@@ -2,7 +2,7 @@ export const metadata = { title: 'CV · Carld Similien' };
 
 // version du PDF : à bumper à chaque mise à jour du CV pour forcer le
 // rechargement (contourne le cache navigateur/CDN sur l'URL /cv.pdf)
-const CV_URL = '/cv.pdf?v=2026-10-02b';
+const CV_URL = '/cv.pdf?v=2026-10-02c';
 
 export default function CV() {
   return (
